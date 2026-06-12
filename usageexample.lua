@@ -3,7 +3,7 @@ local DSM      = require(game.ServerScriptService.DataStoreManager)
 
 Players.PlayerAdded:Connect(function(player)
   local data = DSM.Load(player)
-  print(player.Name, "loaded — coins:", data.coins)
+  print(player.Name, "loaded — coins:", data.coins) --data to be saved (coins in this case)
 end)
 
 Players.PlayerRemoving:Connect(function(player)
