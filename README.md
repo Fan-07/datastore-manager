@@ -5,3 +5,4 @@ Edit defaultData() to define your fields. Call Load on join, Unload on leave, an
 
 Use this as a modulescript in serverscriptstorage
 refer to the usage example
+store your own data
